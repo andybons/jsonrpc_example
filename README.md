@@ -1,2 +1,13 @@
-# jsonrpc_example
-A JSON-RPC example from Node to Go
+# JSON-RPC Example
+
+Going from a Node client to a Go server.
+
+## Run
+
+```sh
+go run server.go
+
+# In a different window...
+npm install
+DEBUG=jsonrpc node index.js
+```
