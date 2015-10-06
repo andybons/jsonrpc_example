@@ -11,6 +11,7 @@ client.connectSocket(function(err, conn) {
   conn.call('Calculator.Add', {X: 1, Y: 2}, function(err, result) {
     if (err) {
       console.log(err);
+      conn.end();
       return;
     }
     console.log('1 + 2 = ' + result);
