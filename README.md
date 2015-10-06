@@ -8,6 +8,6 @@ Going from a Node client to a Go server.
 go run server.go
 
 # In a different window...
-npm install
+npm install json-rpc2
 DEBUG=jsonrpc node index.js
 ```
